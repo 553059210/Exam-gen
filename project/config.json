@@ -1,0 +1,35 @@
+{
+  "input_dir": "/workspace/project/docs",
+  "output_dir": "/workspace/project/output",
+  "exam_title": "法律法规综合测试卷",
+  "exam_time_minutes": 120,
+  "points": {
+    "true_false": 1,
+    "single_choice": 2,
+    "multiple_choice": 3,
+    "fill_blank": 2,
+    "short_answer": 10
+  },
+  "counts": {
+    "true_false": 30,
+    "single_choice": 20,
+    "multiple_choice": 10,
+    "fill_blank": 10,
+    "short_answer": 3
+  },
+  "weights": {
+    "default": 1.0,
+    "important_articles": [
+      "第1条",
+      "第2条",
+      "第3条"
+    ],
+    "important_weight": 3.0
+  },
+  "seed": 2025,
+  "latex": {
+    "document_class": "ctexart",
+    "template": "exam-zh",
+    "use_jinja": false
+  }
+}

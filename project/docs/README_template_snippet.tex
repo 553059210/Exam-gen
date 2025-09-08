@@ -1,0 +1,23 @@
+% Minimal usage of exam-zh in this project (XeLaTeX recommended)
+\documentclass[12pt]{ctexart}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{exam-zh}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK SC}
+
+\begin{document}
+\printanswers % Remove this line to hide answers
+\section*{示例}
+\begin{questions}
+  \question 判断题示例。\ifprintanswers\\答案：对\fi
+  \question 单选题示例。
+  \begin{enumerate}[label=\Alph*.]
+    \item 选项A
+    \item 选项B
+    \item 选项C
+    \item 选项D
+  \end{enumerate}
+\end{questions}
+\end{document}
+
+
